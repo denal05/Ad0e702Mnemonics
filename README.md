@@ -72,3 +72,36 @@ The capital letters of the "BACkFloW Global" mnemonic correspond to the Magento 
 6) webapi_soap
 7) graphql
 ```
+
+### 1.6 Configure event observers and scheduled jobs
+
+#### How are automatic events created, and how should they be used?
+
+```DSL and git commit```
+
+The capital letters of the "DSL and git commit" mnemonic correspond to the automatically-triggered events in Magento:  
+
+```
+1) delete before and delete after
+   e.g.:
+   theme_delete_before
+   theme_delete_after
+
+2) save before and save after
+   e.g.:
+   theme_save_before
+   theme_save_after
+
+3) save commit after
+   e.g.:
+   theme_save_commit_after
+
+4) load before and load after
+   e.g.:
+   theme_load_before
+   theme_load_after
+
+5) clear
+   e.g.:
+   theme_clear
+```
