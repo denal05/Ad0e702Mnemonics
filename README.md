@@ -27,7 +27,7 @@ denis@MacBook-Pro-2012:/var/www/ad0-e702$ tree -L 1 -d
 ├── var
 └── vendor
 
-11 directories
+10 directories
 ```
 
 ### 1.3 Utilize configuration and configuration variables scope
@@ -37,24 +37,24 @@ denis@MacBook-Pro-2012:/var/www/ad0-e702$ tree -L 1 -d
 The capital letters of the "CRAWlSPacED Mezzanine" mnemonic correspond to the first letter of the XML filename:  
 
 ```
-acl.xml
-catalog_attributes.xml
-config.xml
-crontab.xml
-db_schema.xml
-di.xml
-email_templates.xml
-events.xml
-extension_attributes.xml
-menu.xml
-module.xml
-product_options.xml
-product_types.xml
-routes.xml
-sales.xml
-system.xml
-webapi.xml
-widget.xml
+ 1) acl.xml
+ 2) catalog_attributes.xml
+ 3) config.xml
+ 4) crontab.xml
+ 5) db_schema.xml
+ 6) di.xml
+ 7) email_templates.xml
+ 8) events.xml
+ 9) extension_attributes.xml
+10) menu.xml
+11) module.xml
+12) product_options.xml
+13) product_types.xml
+14) routes.xml
+15) sales.xml
+16) system.xml
+17) webapi.xml
+18) widget.xml
 ```
 
 ----
