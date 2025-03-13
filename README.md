@@ -56,3 +56,19 @@ system.xml
 webapi.xml
 widget.xml
 ```
+
+----
+
+```BACkFloW Global```
+
+The capital letters of the "BACkFloW Global" mnemonic correspond to the Magento area:  
+
+```
+1) adminhtml
+2) frontend
+3) base/global
+4) crontab
+5) webapi_rest
+6) webapi_soap
+7) graphql
+```
