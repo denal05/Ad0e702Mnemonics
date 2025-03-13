@@ -77,9 +77,9 @@ The capital letters of the "BACkFloW Global" mnemonic correspond to the Magento 
 
 #### How are automatic events created, and how should they be used?
 
-```DSL and git commit```
+```DSL & git Commit```
 
-The capital letters of the "DSL and git commit" mnemonic correspond to the automatically triggered events in Magento:  
+The capital letters of the "DSL & git Commit" mnemonic correspond to the automatically triggered events in Magento:  
 
 ```
 1) delete before and delete after
