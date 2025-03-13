@@ -106,6 +106,8 @@ The capital letters of the "DSL and git commit" mnemonic correspond to the autom
    theme_clear
 ```
 
+## 2. REQUEST FLOW PROCESSING
+
 ### 2.3 Demonstrate how to use URL rewrites for a catalog product view to a different URL
 
 ```RUBiC's 404```
