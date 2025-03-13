@@ -36,15 +36,15 @@ denis@MacBook-Pro-2012:/var/www/ad0-e702$ tree -L 1 -d
 
 The capital letters of the "CRAWlSPacED Mezzanine" mnemonic correspond to the first letter of the XML filename:  
 
- 1. acl.xml
- 2. catalog_attributes.xml
- 3. config.xml
- 4. crontab.xml
- 5. db_schema.xml
- 6. di.xml
- 7. email_templates.xml
- 8. events.xml
- 9. extension_attributes.xml
+1. acl.xml
+2. catalog_attributes.xml
+3. config.xml
+4. crontab.xml
+5. db_schema.xml
+6. di.xml
+7. email_templates.xml
+8. events.xml
+9. extension_attributes.xml
 10. menu.xml
 11. module.xml
 12. product_options.xml
