@@ -79,7 +79,7 @@ The capital letters of the "BACkFloW Global" mnemonic correspond to the Magento 
 
 ```DSL and git commit```
 
-The capital letters of the "DSL and git commit" mnemonic correspond to the automatically-triggered events in Magento:  
+The capital letters of the "DSL and git commit" mnemonic correspond to the automatically triggered events in Magento:  
 
 ```
 1) delete before and delete after
@@ -104,4 +104,27 @@ The capital letters of the "DSL and git commit" mnemonic correspond to the autom
 5) clear
    e.g.:
    theme_clear
+```
+
+### 2.3 Demonstrate how to use URL rewrites for a catalog product view to a different URL
+
+```RUBiC's 404```
+
+The capital letters of the "RUBiC's 404" mnemonic correspond to the list of Magento routers:  
+
+```
+1) Robots.txt
+   Magento\Robots\Controller\Router
+
+2) URL Rewrites
+   Magento\UrlRewrite\Controller\Router
+
+3) Base
+   Magento\Framework\App\Router\Base
+
+4) CMS
+   Magento\Cms\Controller\Router
+
+5) Default router, i.e., 404 Not Found
+   Magento\Framework\App\Router\DefaultRouter
 ```
