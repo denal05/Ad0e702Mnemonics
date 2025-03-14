@@ -36,6 +36,7 @@ denis@MacBook-Pro-2012:/var/www/ad0-e702$ tree -L 1 -d
 
 The capital letters of the "CRAWlSPacED Mezzanine" mnemonic correspond to the first letter of the XML filename:  
 Additionally, the first letter repeats in the following pattern, in alphabetical order: 132-322-122
+(Hint: I set this number sequence as my mobile phone screen unlock pin to force myself to memorize it.)
 
 1. acl.xml (A 1 time)
 2. catalog_attributes.xml (C 3 times)
