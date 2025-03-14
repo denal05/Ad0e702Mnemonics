@@ -35,24 +35,25 @@ denis@MacBook-Pro-2012:/var/www/ad0-e702$ tree -L 1 -d
 ```CRAWlSPacED Mezzanine```
 
 The capital letters of the "CRAWlSPacED Mezzanine" mnemonic correspond to the first letter of the XML filename:  
+Additionally, the first letter repeats in the following pattern, in alphabetical order: 132-322-122
 
-1. acl.xml
-2. catalog_attributes.xml
+1. acl.xml (A 1 time)
+2. catalog_attributes.xml (C 3 times)
 3. config.xml
 4. crontab.xml
-5. db_schema.xml
+5. db_schema.xml (D 2 times)
 6. di.xml
-7. email_templates.xml
+7. email_templates.xml (E 3 times)
 8. events.xml
 9. extension_attributes.xml
-10. menu.xml
+10. menu.xml (M 2 times)
 11. module.xml
-12. product_options.xml
+12. product_options.xml (P 2 times)
 13. product_types.xml
-14. routes.xml
-15. sales.xml
+14. routes.xml (R 1 time)
+15. sales.xml (S 2 times)
 16. system.xml
-17. webapi.xml
+17. webapi.xml (W 2 times)
 18. widget.xml
 
 ----
