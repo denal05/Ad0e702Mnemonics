@@ -119,7 +119,7 @@ Also, the capital letters of the "RUSCaya Doll" mnemonic (referring to a Matryos
 2) URL Rewrites  
    Magento\UrlRewrite\Controller\Router  
 
-3) Base  
+3) Base or Standard 
    Magento\Framework\App\Router\Base  
 
 4) CMS  
