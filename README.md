@@ -106,9 +106,12 @@ The capital letters of the "DSL & git Commit" mnemonic correspond to the automat
 
 ### 2.3 Demonstrate how to use URL rewrites for a catalog product view to a different URL
 
-```RUBiC's 404```
+```RUBiC's 404```  
+The capital letters of the "RUBiC's 404" mnemonic correspond to the list of Magento routers.  
 
-The capital letters of the "RUBiC's 404" mnemonic correspond to the list of Magento routers:  
+```RUSCaya Doll```  
+Also, the capital letters of the "RUSCaya Doll" mnemonic (referring to a Matryoshka doll, the Russian nesting doll) correspond to the order in which the Front Controller loops through all of the available Magento routers to find a match for the request.  
+ 
 
 1. Robots.txt  
    Magento\Robots\Controller\Router  
