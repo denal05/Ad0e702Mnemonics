@@ -127,3 +127,22 @@ Also, the capital letters of the "RUSCaya Doll" mnemonic (referring to a Matryos
 
 5) Default router, i.e., 404 Not Found  
    Magento\Framework\App\Router\DefaultRouter  
+
+## EPG-E724 Exam Prep Guide for the E724 Exam  
+
+### Section 2: Customizations  
+
+#### Identify the data flow in and out of Adobe SaaS services  
+
+There are seven common Adobe SaaS services:  
+1. Live Search  
+2. Product Recommendations  
+3. Catalog Service  
+4. Payment Services  
+5. SaaS Data Export  
+6. Experience Platform Connector  
+7. Inventory Management (MSI integrations, i.e., Multi-Source Inventory integrations)  
+
+ChatGPT came up with a funny and easy-to-remember acronym:  
+```Lazy Penguins Collect Pizza, Ship Extra Ice```  
+
