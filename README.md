@@ -150,13 +150,13 @@ ChatGPT came up with a funny and easy-to-remember acronym:
 
 DB Indexes
 
-Design Config Grid
-Customer Grid
-Category Products
-Product Categories
-Product Price
-Product Entity Attribute Value
-Stock
-Catalog Rule Product
-Catalog Product Rule
-Catalog Search
+Design Config Grid.  
+Customer Grid.  
+Category Products.  
+Product Categories.  
+Product Price.  
+Product Entity Attribute Value.  
+Stock.  
+Catalog Rule Product.  
+Catalog Product Rule.  
+Catalog Search.  
