@@ -146,3 +146,17 @@ There are seven common Adobe SaaS services:
 ChatGPT came up with a funny and easy-to-remember acronym:  
 ```Lazy Penguins Collect Pizza, Ship Extra Ice```  
 
+# Adobe 1063 Course
+
+DB Indexes
+
+Design Config Grid
+Customer Grid
+Category Products
+Product Categories
+Product Price
+Product Entity Attribute Value
+Stock
+Catalog Rule Product
+Catalog Product Rule
+Catalog Search
