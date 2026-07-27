@@ -128,7 +128,7 @@ Also, the capital letters of the "RUSCaya Doll" mnemonic (referring to a Matryos
 5) Default router, i.e., 404 Not Found  
    Magento\Framework\App\Router\DefaultRouter  
 
-## EPG-E724 Exam Prep Guide for the E724 Exam  
+## The Adobe #1238 Course, i.e. Exam Prep Guide for the E724 Exam (EPG-E724)  
 
 ### Section 2: Customizations  
 
@@ -146,7 +146,7 @@ There are seven common Adobe SaaS services:
 ChatGPT came up with a funny and easy-to-remember acronym:  
 ```Lazy Penguins Collect Pizza, Ship Extra Ice```  
 
-# Adobe 1063 Course
+# The Adobe #1063 Course, i.e., Adobe Commerce for Developers - Professional (COM-D201)  
 
 DB Indexes
 
@@ -161,3 +161,8 @@ Stock
 **Catalog** Product Rule  
 **Catalog** Search  
 
+## The M.academy course "Adobe Commerce Developer Professional Certification Prep (AD0-E724)"  
+
+Adobe Commerce Cloud uses Fastly CDN, NGINX, PHP-FPM, Redis, OpenSearch, MariaDB, and RabbitMQ. ChatGPT came up with a great mnemonic device:  
+```Fast Ninjas Prefer Red Open Markets Rapidly```  
+  
