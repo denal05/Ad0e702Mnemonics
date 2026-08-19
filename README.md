@@ -1,6 +1,6 @@
 # Ad0e702Mnemonics
 
-This README file lists mnemonic devices for the AD0-E702 certification because it requires memorizing lots of things that are hard to remember.
+This README file lists mnemonic devices for the AD0-E702/711/724 certification and the companion Adobe course COM-D201 (#1063) because it requires memorizing lots of things that are hard to remember.
 
 According to Wikipedia:
 > A mnemonic device (/nəˈmɒnɪk/ nə-MON-ik) or memory device is any learning technique that aids information retention or retrieval in the human memory, often by associating the information with something that is easier to remember.
