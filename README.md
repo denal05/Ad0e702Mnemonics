@@ -57,6 +57,10 @@ Additionally, the first letter repeats in the following pattern, in alphabetical
 17. webapi.xml (W 2 times)
 18. widget.xml
 
+I kept confusing `config.xml` with `system.xml`, so ChatGPT came up with a mnemonic:  
+> I'd make this one revolve around C = Content and S = Screen.  
+```Config Comes first (core_config_data), System Shows.```
+
 ----
 
 ```BACkFloW Global```
