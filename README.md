@@ -40,20 +40,20 @@ Additionally, the first letter repeats in the following pattern, in alphabetical
 
 1. acl.xml (A 1 time)
 2. catalog_attributes.xml (C 3 times)
-3. config.xml
+3. config.xml <- Sets default config values in the DB table `core_config_data`
 4. crontab.xml
 5. db_schema.xml (D 2 times)
 6. di.xml
 7. email_templates.xml (E 3 times)
 8. events.xml
 9. extension_attributes.xml
-10. menu.xml (M 2 times)
+10. menu.xml (M 2 times) <- Adds menu items in Admin
 11. module.xml
 12. product_options.xml (P 2 times)
 13. product_types.xml
 14. routes.xml (R 1 time)
 15. sales.xml (S 2 times)
-16. system.xml
+16. system.xml <- Defines configuration UI in Admin > Stores > Configuration
 17. webapi.xml (W 2 times)
 18. widget.xml
 
