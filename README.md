@@ -230,6 +230,7 @@ translate
 
 `bin/magento cache:flush`
 
+`bin/magento cache:enable|disable [type]`
 To implement caching in your class, implement the `Magento\Framework\DataObject\Identities::getIdentities()` method.  
 
 Common cache tags:  
