@@ -41,7 +41,7 @@ Additionally, the first letter repeats in the following pattern, in alphabetical
 1. `acl.xml` (A 1 time)
 2. `catalog_attributes.xml` (C 3 times)
 3. `etc/config.xml` <- Sets default config values in the DB table `core_config_data`
-4. `crontab.xml`
+4. `crontab.xml` and `cron_groups.xml`
 5. `db_schema.xml` (D 2 times)
 6. `di.xml`
 7. `email_templates.xml` (E 3 times)
