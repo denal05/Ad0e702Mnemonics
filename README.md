@@ -190,7 +190,7 @@ bin/magento setup:static-content:deploy
 ```
 bin/magento cron:
 [remove]
-[run]
+[run --group=my_custom_group]
 [install]
 [status]
 ```
