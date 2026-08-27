@@ -252,11 +252,11 @@ bin/magento
 
 ### Configuration precedence  
 
-1. environment variables ENV__VAR
-2. env.php
-3. config.php
-4. `core_config_data`
-5. config.xml
+1. environment variables as in `ENV__VAR`
+2. `env.php`
+3. `config.php`
+4. `core_config_data` DB table
+5. `config.xml`
 
 ----
 
@@ -265,3 +265,21 @@ bin/magento
 Adobe Commerce Cloud uses Fastly CDN, NGINX, PHP-FPM, Redis, OpenSearch, MariaDB, and RabbitMQ.  
 ChatGPT came up with a great mnemonic device:  
 ```Fast Ninjas Prefer Red Open Markets Rapidly```  
+
+----
+
+### ChatGPT: Core Adobe Commerce/Magento Principles
+
+```BEST CLOUD```
+
+● B – Build by extending, not modifying the core.
+● E – Encapsulate behind Service Contracts (interfaces).
+● S – Separate concerns with loose coupling and dependency injection.
+● T – Think upgrades first.
+
+Then:
+● C – Configure before coding.
+● L – Leverage Cloud automation (Infrastructure as Code, CI/CD).
+● O – Optimize with caching, indexing, and stateless design.
+● U – Use APIs and SaaS services where appropriate.
+● D – Defend with secure coding practices.
