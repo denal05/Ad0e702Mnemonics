@@ -174,7 +174,8 @@ ChatGPT came up with a great mnemonic device:
 ----
 
 Working with CLI in Magento:  
-Flags for compiling static content: think `beLFAST`
+
+- Flags for deploying static content: think `beLFAST`
 
 ```
 bin/magento setup:static-content:deploy
@@ -183,4 +184,13 @@ bin/magento setup:static-content:deploy
 [ -a or --area]
 [ -s or --strategy]
 [ -t or --theme]
+```
+
+- Flags for Cron: think `re-run in-sta`
+```
+bin/magento cron:
+[remove]
+[run]
+[install]
+[status]
 ```
