@@ -194,3 +194,13 @@ bin/magento cron:
 [install]
 [status]
 ```
+
+- Flags for the indexer:
+```
+bin/magento indexer:info                              
+bin/magento indexer:status                               
+bin/magento indexer:reindex [indexer]  
+bin/magento indexer:reset [indexer]  
+bin/magento indexer:show-mode [indexer]   
+bin/magento indexer:set-mode [realtime/schedule indexer]   
+```
