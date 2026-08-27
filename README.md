@@ -171,3 +171,16 @@ Adobe Commerce Cloud uses Fastly CDN, NGINX, PHP-FPM, Redis, OpenSearch, MariaDB
 ChatGPT came up with a great mnemonic device:  
 ```Fast Ninjas Prefer Red Open Markets Rapidly```  
   
+----
+
+Working with CLI in Magento:  
+Flags for compiling static content: think `beLFAST`
+
+```
+bin/magento setup:static-content:deploy
+[ -l or --language]
+[ -f or --force]
+[ -a or --area]
+[ -s or --strategy]
+[ -t or --theme]
+```
