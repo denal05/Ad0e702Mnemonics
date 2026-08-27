@@ -167,13 +167,7 @@ Stock
 
 ## The M.academy course "Adobe Commerce Developer Professional Certification Prep (AD0-E724)"  
 
-Adobe Commerce Cloud uses Fastly CDN, NGINX, PHP-FPM, Redis, OpenSearch, MariaDB, and RabbitMQ.  
-ChatGPT came up with a great mnemonic device:  
-```Fast Ninjas Prefer Red Open Markets Rapidly```  
-  
-----
-
-Working with CLI in Magento:  
+### Working with CLI in Magento  
 
 - Flags for deploying static content: think `beLFAST`
 
@@ -186,6 +180,8 @@ bin/magento setup:static-content:deploy
 [ -t or --theme]
 ```
 
+----
+
 - Flags for Cron: think `re-run in-sta`
 ```
 bin/magento cron:
@@ -194,6 +190,8 @@ bin/magento cron:
 [install]
 [status]
 ```
+
+----
 
 - Flags for the indexer:
 ```
@@ -204,6 +202,8 @@ bin/magento indexer:reset [indexer]
 bin/magento indexer:show-mode [indexer]   
 bin/magento indexer:set-mode [realtime/schedule indexer]   
 ```
+
+----
 
 - Flags for the caches:  
 
@@ -236,5 +236,16 @@ To implement caching in your class, implement the `Magento\Framework\DataObject\
 Common cache tags:  
 `cat_p_[ID]`
 
-- Configuration precedence:
+----
+
+### Configuration precedence  
+
 config.xml, database, config.php, env.php, and environment variables.
+
+----
+
+### Adobe Commerce Cloud  
+
+Adobe Commerce Cloud uses Fastly CDN, NGINX, PHP-FPM, Redis, OpenSearch, MariaDB, and RabbitMQ.  
+ChatGPT came up with a great mnemonic device:  
+```Fast Ninjas Prefer Red Open Markets Rapidly```  
