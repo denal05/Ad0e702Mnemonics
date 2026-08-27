@@ -229,3 +229,8 @@ translate
 `bin/magento cache:clean [cache-name]`
 
 `bin/magento cache:flush`
+
+To implement caching in your class, implement the `Magento\Framework\DataObject\Identities::getIdentities()` method.  
+
+Common cache tags:  
+`cat_p_[ID]`
