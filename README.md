@@ -5,6 +5,8 @@ This README file lists mnemonic devices for the AD0-E702/711/724 certification a
 According to Wikipedia:
 > A mnemonic device (/nəˈmɒnɪk/ nə-MON-ik) or memory device is any learning technique that aids information retention or retrieval in the human memory, often by associating the information with something that is easier to remember.
 
+----
+
 ## 1. MAGENTO ARCHITECTURE AND CUSTOMIZATION TECHNIQUES
 
 ### 1.2 Describe the Magento directory structure
@@ -29,6 +31,8 @@ denis@MacBook-Pro-2012:/var/www/ad0-e702$ tree -L 1 -d
 
 10 directories
 ```
+
+----
 
 ### 1.3 Utilize configuration and configuration variables scope
 
@@ -75,6 +79,8 @@ The capital letters of the "BACkFloW Global" mnemonic correspond to the Magento 
 6. webapi_soap
 7. graphql
 
+----
+
 ### 1.6 Configure event observers and scheduled jobs
 
 #### How are automatic events created, and how should they be used?
@@ -106,6 +112,8 @@ The capital letters of the "DSL & git Commit" mnemonic correspond to the automat
    e.g.:  
    theme_clear  
 
+----
+
 ## 2. REQUEST FLOW PROCESSING
 
 ### 2.3 Demonstrate how to use URL rewrites for a catalog product view to a different URL
@@ -128,6 +136,8 @@ Also, the capital letters of the "RUSCaya Doll" mnemonic (referring to a Matryos
 5) Default router, i.e., 404 Not Found  
    Magento\Framework\App\Router\DefaultRouter  
 
+----
+
 ## The Adobe #1238 course "Exam Prep Guide for the E724 Exam" (EPG-E724)  
 
 ### Section 2: Customizations  
@@ -146,6 +156,8 @@ There are seven common Adobe SaaS services:
 ChatGPT came up with a funny and easy-to-remember acronym:  
 ```Lazy Penguins Collect Pizza, Ship Extra Ice```  
 
+----
+
 ## The Adobe #1063 course: "Adobe Commerce for Developers - Professional" (COM-D201)  
 
 #### DB Indexes
@@ -161,11 +173,27 @@ Stock
 **Catalog** Product Rule  
 **Catalog** Search  
 
+----
+
 #### Magento extension mechanisms in order of preference:  
 1. Dependency Injection as a `type` node in di.xml, and a related constructor argument
 2. Plugin (modify method behavior)
 3. Observer (react to events)
 4. `preference` node in di.xml to replace an entire class
+
+----
+
+#### The most common events in Adobe Commerce
+`controller action predispatch`  
+`controller_action_postdispatch`  
+`checkout_cart_product_add_after`  
+`sales_order_place_before`  
+`sales_order_place_after`  
+`catalog_product_save_before`  
+`catalog_product_save_after`  
+`customer_register_success`  
+
+----
 
 ## The M.academy course "Adobe Commerce Developer Professional Certification Prep (AD0-E724)"  
 
