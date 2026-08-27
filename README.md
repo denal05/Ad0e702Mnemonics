@@ -165,6 +165,12 @@ Stock
 **Catalog** Product Rule  
 **Catalog** Search  
 
+#### Magento extension mechanisms in order of preference:  
+1. Dependency Injection as a `type` node in di.xml, and a related constructor argument
+2. Plugin (modify method behavior)
+3. Observer (react to events)
+4. `preference` node in di.xml to replace an entire class
+
 ## The M.academy course "Adobe Commerce Developer Professional Certification Prep (AD0-E724)"  
 
 ### Working with CLI in Magento  
