@@ -235,3 +235,6 @@ To implement caching in your class, implement the `Magento\Framework\DataObject\
 
 Common cache tags:  
 `cat_p_[ID]`
+
+- Configuration precedence:
+config.xml, database, config.php, env.php, and environment variables.
