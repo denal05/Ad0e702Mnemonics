@@ -1,4 +1,4 @@
-## Ad0e702Mnemonics
+# Ad0e702Mnemonics
 
 This README file lists mnemonic devices for the AD0-E702/711/724 certification and the companion Adobe course COM-D201 (#1063) because it requires memorizing lots of things that are hard to remember.
 
@@ -115,20 +115,16 @@ The capital letters of the "RUBiC's 404" mnemonic correspond to the list of Mage
 
 ```RUSCaya Doll```  
 Also, the capital letters of the "RUSCaya Doll" mnemonic (referring to a Matryoshka doll, the Russian nesting doll) correspond to the order in which the Front Controller loops through all of the available Magento routers to find a match for the request.  
- 
 
 1. Robots.txt  
    Magento\Robots\Controller\Router  
-
 2) URL Rewrites  
    Magento\UrlRewrite\Controller\Router  
 
 3) Base or Standard   
    Magento\Framework\App\Router\Base  
-
 4) CMS  
    Magento\Cms\Controller\Router  
-
 5) Default router, i.e., 404 Not Found  
    Magento\Framework\App\Router\DefaultRouter  
 
@@ -256,7 +252,11 @@ bin/magento
 
 ### Configuration precedence  
 
-config.xml, database, config.php, env.php, and environment variables.
+1. environment variables ENV__VAR
+2. env.php
+3. config.php
+4. `core_config_data`
+5. config.xml
 
 ----
 
