@@ -204,3 +204,28 @@ bin/magento indexer:reset [indexer]
 bin/magento indexer:show-mode [indexer]   
 bin/magento indexer:set-mode [realtime/schedule indexer]   
 ```
+
+- Flags for the caches:  
+
+`bin/magento cache:status`
+```
+config                         - Configuration files
+layout                         - Layout XML files
+block_html                     - HTML output of blocks
+collections                    - Collection data
+reflection                     - API interface reflection data
+db_ddl                         - Database schema
+compiled_config                - Compiled configuration
+eav                            - Entity attribute value data
+customer_notification          - Customer notifications
+graphql_query_resolver_result  - GraphQL resolver query cache
+config_integration             - Integration configuration
+config_integration_api         - Integration API configuration
+full_page                      - Full page cache
+config_webservice              - Web service configuration
+translate        
+```
+
+`bin/magento cache:clean [cache-name]`
+
+`bin/magento cache:flush`
