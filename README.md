@@ -1,4 +1,4 @@
-# Ad0e702Mnemonics
+## Ad0e702Mnemonics
 
 This README file lists mnemonic devices for the AD0-E702/711/724 certification and the companion Adobe course COM-D201 (#1063) because it requires memorizing lots of things that are hard to remember.
 
@@ -201,8 +201,8 @@ bin/magento cron:
 
 - Flags for the indexer:
 ```
-bin/magento indexer:info                              
-bin/magento indexer:status                               
+bin/magento indexer:info
+bin/magento indexer:status
 bin/magento indexer:reindex [indexer]  
 bin/magento indexer:reset [indexer]  
 bin/magento indexer:show-mode [indexer]   
@@ -241,6 +241,16 @@ To implement caching in your class, implement the `Magento\Framework\DataObject\
 
 Common cache tags:  
 `cat_p_[ID]`
+
+----
+
+- Internationalization:  
+```
+bin/magento
+  i18n:collect-phrases
+  i18n:pack
+  i18n:uninstall
+```
 
 ----
 
