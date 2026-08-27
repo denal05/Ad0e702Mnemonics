@@ -272,14 +272,14 @@ ChatGPT came up with a great mnemonic device:
 
 ```BEST CLOUD```
 
-● B – Build by extending, not modifying the core.
-● E – Encapsulate behind Service Contracts (interfaces).
-● S – Separate concerns with loose coupling and dependency injection.
-● T – Think upgrades first.
-
-Then:
-● C – Configure before coding.
-● L – Leverage Cloud automation (Infrastructure as Code, CI/CD).
-● O – Optimize with caching, indexing, and stateless design.
-● U – Use APIs and SaaS services where appropriate.
-● D – Defend with secure coding practices.
+● B – Build by extending, not modifying the core.  
+● E – Encapsulate behind Service Contracts (interfaces).  
+● S – Separate concerns with loose coupling and dependency injection.  
+● T – Think upgrades first.  
+  
+Then:  
+● C – Configure before coding.  
+● L – Leverage Cloud automation (Infrastructure as Code, CI/CD).  
+● O – Optimize with caching, indexing, and stateless design.  
+● U – Use APIs and SaaS services where appropriate.  
+● D – Defend with secure coding practices.  
