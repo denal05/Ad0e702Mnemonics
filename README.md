@@ -316,6 +316,9 @@ bin/magento
   i18n:uninstall
 ```
 
+ChatGPT suggested:  
+```“Collect, Pack, Uninstall” → CPU```
+
 ----
 
 ### Configuration precedence  
