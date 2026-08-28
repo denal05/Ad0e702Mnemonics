@@ -144,6 +144,9 @@ Also, the capital letters of the "RUSCaya Doll" mnemonic (referring to a Matryos
 
 #### Identify the data flow in and out of Adobe SaaS services  
 
+ChatGPT came up with a funny and easy-to-remember acronym:  
+```Lazy Penguins Collect Pizza, Ship Extra Ice```  
+
 There are seven common Adobe SaaS services:  
 1. Live Search  
 2. Product Recommendations  
@@ -153,28 +156,43 @@ There are seven common Adobe SaaS services:
 6. Experience Platform Connector  
 7. Inventory Management (MSI integrations, i.e., Multi-Source Inventory integrations)  
 
-ChatGPT came up with a funny and easy-to-remember acronym:  
-```Lazy Penguins Collect Pizza, Ship Extra Ice```  
-
 ----
 
 ## The Adobe #1063 course: "Adobe Commerce for Developers - Professional" (COM-D201)  
 
 #### DB Indexes
 
-Design Config **Grid**  
-Customer **Grid**  
-Category **Products**  
-**Product** Categories  
-**Product** Price  
-**Product** Entity Attribute Value  
-Stock  
-**Catalog** Rule Product  
-**Catalog** Product Rule  
-**Catalog** Search  
+The following are common Magento indices:  
+1. Design Config **Grid**  
+2. Customer **Grid**  
+3. Category **Products**  
+4. **Product** Categories  
+5. **Product** Price  
+6. **Product** Entity Attribute Value  
+7. Stock  
+8. **Catalog** Rule Product  
+9. **Catalog** Product Rule  
+10. **Catalog** Search  
 
-There are 2 Grid, 4 Product, 1 Stock, 3 Catalog items.
-```The 2 GRID has 4 PRODUCTS in STOCK in the 3 CATALOGs.```
+There are 2 Grid, 4 Product, 1 Stock, 3 Catalog items in the index list.  
+```The 2 GRID has 4 PRODUCTS in STOCK in the 3 CATALOGs.```  
+
+Here's another list:  
+| # | ID | Description |
+| 1 | catalogrule_product | Catalog Product Rule |
+| 2 | catalogrule_rule | Catalog Rule Product |
+| 3 | catalogsearch_fulltext | |
+| 4 | catalog_category_product | Category Product |
+| 5 | customer_grid | |
+| 6 | design_config_grid | |
+| 7 | inventory | |
+| 8 | catalog_product_category | Product Category |
+| 9 | catalog_product_attribute | Product EAV |
+| 10 | catalog_product_price | |
+| 11 | sales_order_data_exporter | |
+| 12 | sales_order_status_data_exporter | |
+| 13 | cataloginventory_stock | |
+| 14 | store_data_exporter | |
 
 ----
 
