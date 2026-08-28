@@ -204,6 +204,8 @@ Here's another list:
 3. Observer (react to events)
 4. `preference` node in di.xml to replace an entire class
 
+Think ```DI-PLOP```
+
 ----
 
 #### The most common events in Adobe Commerce
