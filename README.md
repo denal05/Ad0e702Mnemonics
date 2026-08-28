@@ -231,6 +231,16 @@ ChatGPT came up with the following:
 
 ----
 
+#### Common cron groups in Magento:  
+- default
+- index
+- catalog_event
+- consumers
+
+Think ```“Default Indexers Catalog Consumers.”```
+
+----
+
 ## The M.academy course "Adobe Commerce Developer Professional Certification Prep (AD0-E724)"  
 
 ### Working with CLI in Magento  
