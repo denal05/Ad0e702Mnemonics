@@ -173,6 +173,9 @@ Stock
 **Catalog** Product Rule  
 **Catalog** Search  
 
+There are 2 Grid, 4 Product, 1 Stock, 3 Catalog items.
+```The 2 GRID has 4 PRODUCTS in STOCK in the 3 CATALOGs.```
+
 ----
 
 #### Magento extension mechanisms in order of preference:  
@@ -184,7 +187,7 @@ Stock
 ----
 
 #### The most common events in Adobe Commerce
-`controller action predispatch`  
+`controller_action_predispatch`  
 `controller_action_postdispatch`  
 `checkout_cart_product_add_after`  
 `sales_order_place_before`  
