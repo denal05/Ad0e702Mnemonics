@@ -261,13 +261,17 @@ bin/magento cron:
 
 - Flags for the indexer:
 ```
-bin/magento indexer:info
-bin/magento indexer:status
-bin/magento indexer:reindex [indexer]  
-bin/magento indexer:reset [indexer]  
-bin/magento indexer:show-mode [indexer]   
-bin/magento indexer:set-mode [realtime/schedule indexer]   
+bin/magento
+  indexer:info
+  indexer:status
+  indexer:reindex [indexer]  
+  indexer:reset [indexer]  
+  indexer:show-mode [indexer]   
+  indexer:set-mode [realtime/schedule indexer]   
 ```
+
+ChatGPT came up with this mnemonic:  
+```I See Reindeer Rest, Show, Set.```
 
 ----
 
