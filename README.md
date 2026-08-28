@@ -178,21 +178,23 @@ There are 2 Grid, 4 Product, 1 Stock, 3 Catalog items in the index list.
 ```The 2 GRID has 4 PRODUCTS in STOCK in the 3 CATALOGs.```  
 
 Here's another list:  
-| # | ID | Description |
-| 1 | catalogrule_product | Catalog Product Rule |
-| 2 | catalogrule_rule | Catalog Rule Product |
-| 3 | catalogsearch_fulltext | |
-| 4 | catalog_category_product | Category Product |
-| 5 | customer_grid | |
-| 6 | design_config_grid | |
-| 7 | inventory | |
-| 8 | catalog_product_category | Product Category |
-| 9 | catalog_product_attribute | Product EAV |
-| 10 | catalog_product_price | |
-| 11 | sales_order_data_exporter | |
-| 12 | sales_order_status_data_exporter | |
-| 13 | cataloginventory_stock | |
-| 14 | store_data_exporter | |
+
+| # | ID | Description |  
+| --- | --- | --- |  
+| 1 | catalogrule_product | Catalog Product Rule |  
+| 2 | catalogrule_rule | Catalog Rule Product |  
+| 3 | catalogsearch_fulltext | |  
+| 4 | catalog_category_product | Category Product |  
+| 5 | customer_grid | |  
+| 6 | design_config_grid | |  
+| 7 | inventory | |  
+| 8 | catalog_product_category | Product Category |  
+| 9 | catalog_product_attribute | Product EAV |  
+| 10 | catalog_product_price | |  
+| 11 | sales_order_data_exporter | |  
+| 12 | sales_order_status_data_exporter | |  
+| 13 | cataloginventory_stock | |  
+| 14 | store_data_exporter | |  
 
 ----
 
@@ -332,3 +334,4 @@ Then:
 ● O – Optimize with caching, indexing, and stateless design.  
 ● U – Use APIs and SaaS services where appropriate.  
 ● D – Defend with secure coding practices.  
+ 
