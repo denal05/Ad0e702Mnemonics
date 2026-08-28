@@ -218,6 +218,17 @@ Think ```DI-PLOP```
 `catalog_product_save_after`  
 `customer_register_success`  
 
+ChatGPT came up with the following:  
+
+> Think of it as a sequence of things happening:  
+```CONTROLLER → CART → SALES → CATALOG → CUSTOMER```
+> with the events:
+```PRE → POST → ADD → BEFORE → AFTER → BEFORE → AFTER → SUCCESS```
+> So the chant becomes:
+```🗣️ “Controller pre, controller post; cart add; sales before-after; catalog before-after; customer success!”```
+> One-line exam mnemonic:
+```Controller PRE-POST → Cart ADD → Sales BEFORE-AFTER → Catalog BEFORE-AFTER → Customer SUCCESS.```
+
 ----
 
 ## The M.academy course "Adobe Commerce Developer Professional Certification Prep (AD0-E724)"  
